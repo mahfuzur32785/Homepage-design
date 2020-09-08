@@ -1,0 +1,114 @@
+body{
+	text-align: center;
+	background: linear-gradient(55deg ,#39D3BA , #EB7550);
+}
+.menu{
+	width: 70%;
+	margin:20px auto;
+	text-align: center;
+	border: 2px solid black;
+	position: relative;
+}
+.menu ul li{
+	margin: 5px 20px;
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: black;
+}
+.menu ul{
+	margin-left: 60px;
+}
+.menu img{
+	position: absolute;
+	top: 8px;
+	left: 20px;
+}
+.body-part1{
+	width: 69%;
+	background-image: url(img/hill.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin:5px auto;
+	padding: 20px 10px;
+}
+.body-part2{
+	width: 50%;
+	border: 0.2px solid white;
+	margin: 60px auto;
+}
+.body-part1 form input{
+	margin: 10px 10px;
+	padding: 5px;
+	outline: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.facebook{
+	position: fixed;
+	right: -62px;
+}
+.youtube{
+	position: fixed;
+	right: -55px;
+	top: 250px;
+}
+.twiiter{
+	position: fixed;
+	right: -46px;
+	top: 350px;
+}
+.facebook:hover{
+	right: -30px;
+	transition: 0.5s ease-in-out;
+	transform: scale(1);
+}
+.youtube:hover{
+	right: -23px;
+	transition: 0.5s ease-in-out;
+	transform: scale(1);
+}
+.twiiter:hover{
+	right: -17px;
+	transition: 0.5s ease-in-out;
+	transform: scale(1);
+}
+.in-fild{
+	width: 30%;
+	margin: 20px;
+	margin-left: 60px;
+	padding: 7px;
+	outline: none;
+	border-radius: 4px;
+	border-style: none;
+}
+.in-sub{
+	padding: 5px;
+	border: 1px solid black;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.position{
+	width: 450px;
+	height: 250px;
+	background:white;
+	border: 1px solid black;
+	margin: 30px auto;
+
+}
+.position img{
+	width: 450px;
+	height: 250px;
+	position: relative;
+}
+.text-position h3{
+	position: absolute;
+	bottom: -50px;
+	left: -280px;
+	right: 20px;
+	color: white;
+}
